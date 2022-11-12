@@ -297,7 +297,7 @@ header {
 .activeform {
     display: flex !important;
 }
-#name {
+.activeform #name {
     background: #3d953f;
     height: 25px;
     width: 100%;
@@ -306,7 +306,7 @@ header {
     color: #fff;
     padding: 10px;
 }
-#mensaje {
+.activeform #mensaje {
     background: #3d953f;
     height: 150px;
     max-height: 150px;
@@ -317,7 +317,7 @@ header {
     color: #fff;
     padding: 10px;
 }
-input[type="submit"] {
+.activeform input[type="submit"] {
     background: #3d953f;
     color: #fff;
     padding: 10px;

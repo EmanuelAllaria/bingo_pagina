@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bingo</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/comprar_bingo.css">
+
+    <script src="https://kit.fontawesome.com/15fbf0e0d4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <header>
+        <div class="logo">
+            <a href="#"><img src="img/BINGO.png" alt="Logo"></a>
+        </div>
+        <label for="check" id="menu">
+            <i class="fa-solid fa-bars"></i>
+        </label>
+        <input type="checkbox" id="check">
+
+        <nav class="nav">
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Nosotros</a></li>
+                <li><a href="#">Premios Semanales</a></li>
+                <li><a href="#">Premios Finales</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="comprar_bingo">
+        <div class="container_comprar_bingo">
+            <div class="title_comprar_bingo">
+                <h2>Comprá el bingo!!!</h2>
+            </div>
+            <div class="container_form_c_bingo">
+                <form>
+                    
+                    <label for="name">Nombre Y Apellido:</label>
+                    <input type="text" name="name" id="name">
+
+                    <br>
+
+                    <label for="dni">D.N.I:</label>
+                    <input type="number" name="dni" id="dni">
+
+                    <br>
+
+                    <label for="direccion">Dirección:</label>
+                    <input type="text" name="direccion" id="direccion">
+
+                    <br>
+
+                    <label for="localidad">Localidad:</label>
+                    <input type="text" name="localidad" id="localidad">
+
+                    <br>
+
+                    <label for="provincia">Provincia:</label>
+                    <input type="text" name="provincia" id="provincia">
+
+                    <br>
+
+                    <label for="telefono">Celular (incluir cod. de área):</label>
+                    <input type="tel" name="telefono" id="telefono">
+
+                    <br>
+
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email">
+
+                    <br>
+
+                    <label for="localidad">Como nos encontraste?</label>
+                    <select name="c_nos_encontro" id="c_nos_encontro">
+                        <option selected disabled>Indique como nos encontró</option>
+                        <option id="tv">TV</option>
+                        <option id="radio">Radio</option>
+                        <option id="p_callejera">Publicidad Callejera</option>
+                        <option id="vende">Vendedor/a</option>
+                        <option id="rs">Redes Sociales</option>
+                        <option id="web">Web</option>
+                        <option id="c/a">Cliente/Amigo</option>
+                    </select name="c_nos_encontro">
+
+                    <br>
+
+                    <input type="submit" id="comprar" value="Comprar">
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <div class="wsp_flotante">
+        <form>
+            <label for="name">Nombre:</label>
+            <input type="text" name="name" id="name">
+
+            <br>
+
+            <label for="mensaje">Mensaje</label>
+            <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
+
+            <br>
+
+            <input type="submit" id="enviar" value="Enviar">
+        </form>
+        <div class="img_wsp_flotante">
+            <img src="img/wsp.png" alt="Whatsapp">
+        </div>
+    </div>
+
+    <footer>
+        <div id="contact">
+            <div class="container_contact">
+                <div class="logo_footer">
+                    <img src="img/BINGO.png" alt="Logo">
+                </div>
+                <div class="contact">
+                    <div class="location">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p>Calle Falsa 123, Buenos Aires, Argentina</p>
+                    </div>
+                    <div class="phone">
+                        <i class="fa-solid fa-phone"></i>
+                        <p>+54 11 XXXX-XXXX</p>
+                    </div>
+                    <div class="email">
+                        <i class="fa-solid fa-envelope"></i>
+                        <p>nombre@email.com</p>
+                    </div>
+                </div>
+                <div class="mapa">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26097348.04146914!2d-81.64887587882804!3d-37.01668008282343!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccaf5f5fdc667%3A0x3d2f77992af00fa8!2sArgentina!5e0!3m2!1ses-419!2sar!4v1668188582902!5m2!1ses-419!2sar" width="250" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <p>&copy;Todos los derechos reservados. <a target="_blank" href="https://typingtiming.com.ar">Typing Timing</a>.</p>
+        </div>
+    </footer>
+
+    <script src="js/banner.js"></script>
+    <script src="js/enviarwspform.js"></script>
+    <script src="js/comprar_bingo.js"></script>
+</body>
+</html>

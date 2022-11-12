@@ -1,0 +1,80 @@
+#comprar_bingo {
+    margin-bottom: 50px;
+}
+.title_comprar_bingo {
+    padding: 20px;
+    font-size: 35px;
+    color: #fff;
+    text-align: center;
+}
+.container_comprar_bingo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+.container_form_c_bingo form {
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #fff;
+    padding: 30px;
+    border-radius: 20px;
+}
+.container_form_c_bingo form label {
+    margin-bottom: 10px;
+    place-self: start;
+    font-size: 17px;
+}
+.container_form_c_bingo form input:not(input[type="submit"]) {
+    height: 40px;
+    width: 350px;
+    border-radius: 5px;
+    border: 2px solid #000;
+}
+.container_form_c_bingo form input:not(input[type="submit"]):hover {
+    border-bottom: 1px solid red;
+}
+.container_form_c_bingo form input:not(input[type="submit"]):focus {
+    border-bottom: 1px solid red;
+}
+.container_form_c_bingo form input[type="submit"] {
+    height: 40px;
+    width: 100%;
+    color: #fff;
+    background: red;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.container_form_c_bingo form input[type="submit"]:hover {
+    background: rgb(247, 43, 43);
+}
+#c_nos_encontro {
+    height: 40px;
+    width: 100%;
+    border: 2px solid #000;
+}
+#c_nos_encontro option {
+    background: red;
+    color: #fff;
+}
+#c_nos_encontro:hover {
+    background: red;
+    color: #fff;
+}
+
+
+
+@media screen and (max-width: 568px) {
+    .title_comprar_bingo {
+        font-size: 25px;
+    }
+    .container_form_c_bingo form input:not(input[type="submit"]) {
+        width: 100%;
+    }
+    .container_form_c_bingo form label {
+        font-size: 15px;
+    }
+}

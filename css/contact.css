@@ -1,0 +1,8 @@
+#message {
+    min-width: 350px;
+    max-width: 350px;
+    min-height: 150px;
+    max-height: 150px;
+    border-radius: 5px;
+    border: 2px solid #000;
+}

@@ -132,6 +132,7 @@ header {
 .fotos_banner img {
     height: 500px;
     width: 500px;
+    border-radius: 55px;
     animation: fourDBanner 1.5s ease-in-out infinite both;
 }
 .img_comprar_bingo {

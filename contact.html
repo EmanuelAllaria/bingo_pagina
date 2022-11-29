@@ -8,6 +8,7 @@
 
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/comprar_bingo.css">
+    <link rel="stylesheet" href="css/contact.css">
 
     <script src="https://kit.fontawesome.com/15fbf0e0d4.js" crossorigin="anonymous"></script>
 </head>
@@ -36,7 +37,7 @@
     <section id="comprar_bingo">
         <div class="container_comprar_bingo">
             <div class="title_comprar_bingo">
-                <h2>Comprá el bingo!!!</h2>
+                <h2>Contactanos!!!</h2>
             </div>
             <div class="container_form_c_bingo">
                 <form action="https://formspree.io/f/mbjbqndy" method="POST">
@@ -45,26 +46,6 @@
                     
                     <label for="name">Nombre Y Apellido:</label>
                     <input type="text" name="name" id="name" required>
-
-                    <br>
-
-                    <label for="dni">D.N.I:</label>
-                    <input type="number" name="dni" id="dni" required>
-
-                    <br>
-
-                    <label for="direccion">Dirección:</label>
-                    <input type="text" name="direccion" id="direccion" required>
-
-                    <br>
-
-                    <label for="localidad">Localidad:</label>
-                    <input type="text" name="localidad" id="localidad" required>
-
-                    <br>
-
-                    <label for="provincia">Provincia:</label>
-                    <input type="text" name="provincia" id="provincia" required>
 
                     <br>
 
@@ -78,21 +59,12 @@
 
                     <br>
 
-                    <label for="localidad">Como nos encontraste?</label>
-                    <select name="nos_encontro_por" id="c_nos_encontro">
-                        <option selected disabled>Indique como nos encontró</option>
-                        <option id="tv">TV</option>
-                        <option id="radio">Radio</option>
-                        <option id="p_callejera">Publicidad Callejera</option>
-                        <option id="vende">Vendedor/a</option>
-                        <option id="rs">Redes Sociales</option>
-                        <option id="web">Web</option>
-                        <option id="c/a">Cliente/Amigo</option>
-                    </select>
+                    <label for="message">Mensaje:</label>
+                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
 
                     <br>
 
-                    <input type="submit" id="comprar" value="Comprar">
+                    <input type="submit" id="contact" value="Enviar">
                 </form>
             </div>
         </div>

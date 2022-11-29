@@ -5,11 +5,11 @@ let imgs = 1
 function show_banner() {
     imgs++
 
-    if (imgs > 7) {
+    if (imgs > 3) {
         imgs = 1
     }
 
-    img.src = "img/slide" + imgs + ".png"
+    img.src = "img/slide" + imgs + ".jpg"
     img.alt = "Slide" + " " + imgs
 }
 

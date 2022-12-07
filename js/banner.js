@@ -9,7 +9,7 @@ function show_banner() {
         imgs = 1
     }
 
-    img.src = "img/slide" + imgs + ".jpg"
+    img.src = "img/slide" + imgs + ".png"
     img.alt = "Slide" + " " + imgs
 }
 

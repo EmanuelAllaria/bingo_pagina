@@ -385,7 +385,7 @@ header {
         width: 90%;
     }
     .fotos_banner img {
-        height: 200px;
+        height: 300px;
         width: 300px;
         animation: fourDBanner 1.5s ease-in-out infinite both;
     }

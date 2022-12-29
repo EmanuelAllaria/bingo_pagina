@@ -363,6 +363,22 @@ header {
         width: 35%;
     }
 }
+@media screen and (max-width: 888px) {
+    .fotos_banner {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .arriba, .abajo {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .fotos_banner img {
+        height: 300px;
+        width: 300px;
+    }
+}
 @media screen and (max-width: 850px) {
     .nav ul li a {
         font-size: 12px;
@@ -407,6 +423,9 @@ header {
     .container_contact {
         flex-direction: column;
         gap: 50px;
+    }
+    .fotos_banner {
+        display: block;
     }
 }
 

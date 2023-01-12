@@ -427,6 +427,9 @@ header {
     .fotos_banner {
         display: block;
     }
+    .abajo {
+        opacity: 0;
+    }
 }
 
 @media screen and (max-width: 568px) {
